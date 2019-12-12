@@ -49,7 +49,7 @@ describe User do
   end
   # end::context[]
 
-  context "not born yet" do
+  context "future birthday" do
 
     it "can't be created" do
       expect { described_class.new("hdoe", "Hope", "Doe", Date.today+1) }.to raise_error("future birthday")
