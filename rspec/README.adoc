@@ -1,0 +1,94 @@
+= https://rspec.info/[RSpec]
+
+In RSpec, a test _describes_, how a _subject_ should/is expected to behave in different _contexts_.
+
+== Grouping
+
+Group examples with `describe` refering to a Class
+[source,ruby]
+----
+include::user_spec.rb[tag=describe,indent=0]
+----
+
+
+== Tests
+
+Examples start with `it` (or `specify`, or `example`), test names can be any string
+[source,ruby]
+----
+include::user_spec.rb[tag=long_it,indent=0]
+----
+
+== Define Collaborators
+
+Setup collaborators with `let`
+[source,ruby]
+----
+include::user_spec.rb[tag=let,indent=0]
+----
+
+== Define the Subject
+
+Explicit subject creation with `subject`, refer to with `subject` or name it to get it as delegate in `it`
+[source,ruby]
+----
+include::user_spec.rb[tag=short_it,indent=0]
+----
+
+`before(:all)`, `after(:all)` and `before(:each)`, `after(:each)` for setup/tear down code
+
+== Context
+
+Use `context` to group tests further, each `context` can have a different subject, lets, befores & afters
+[source,ruby]
+----
+include::user_spec.rb[tag=context,indent=0]
+----
+
+== Ignoring
+
+Temporary disable tests with `xit` instead of `it`
+
+== Mocking & Stubbing
+
+See https://www.rubyguides.com/2018/10/rspec-mocks/
+
+Doubles are created with
+
+`double`:: can mock any method
+`instance_double`:: can only have methods, the doubled class provides
+
+[source,ruby]
+----
+include::user_service_spec.rb[tag=instance_double,indent=0]
+----
+
+=== Mocks
+
+Mocks `expect` to `receive` a call `with` arguments
+
+[source,ruby]
+----
+include::user_service_spec.rb[tag=expect_mock_to_receive,indent=0]
+----
+
+They can also return something
+
+[source,ruby]
+----
+include::user_service_spec.rb[tag=expect_mock_to_receive_and_return,indent=0]
+----
+
+Mocks are strict.
+If they are not called, the test will fail.
+The expectations must be set _before_ the mock is used.
+
+=== Stubs
+
+Stubs are created just like mocks, but they only `allow` certain calls.
+When the stub is not used, the test won't fail.
+
+[source,ruby]
+----
+include::user_service_spec.rb[tag=allow_stub_to_receive,indent=0]
+----

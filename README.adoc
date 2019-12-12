@@ -14,7 +14,7 @@ This is a comparission of different test frameworks of different programming lan
 * [ ] http://www.scalatest.org/[ScalaTest]
 * [ ] https://mochajs.org/[Mocha]
 * [ ] https://jestjs.io/[Jest]
-* [ ] https://rspec.info/[RSpec]
+* [x] https://rspec.info/[RSpec]
 * [ ] https://github.com/kotlintest/kotlintest[KotlinTest]
 * [ ] https://cucumber.io/[Cucumber]
 * [ ] https://www.katalon.com/[Katalon]
@@ -23,3 +23,5 @@ This is a comparission of different test frameworks of different programming lan
 * [ ] http://fitnesse.org/[Fitnesse]
 * [ ] https://specflow.org/[SpecFlow]
 * [ ] http://www.serenity-bdd.info/[Serenity BDD]
+
+include::rspec/README.adoc[leveloffset=+1]
