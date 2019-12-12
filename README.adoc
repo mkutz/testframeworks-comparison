@@ -1,0 +1,25 @@
+= Test Framework Coparison
+Michael Kutz <mail@michael-kutz.de>
+:toc:
+:source-highlighter: coderay
+
+This is a comparission of different test frameworks of different programming languages regarding fundamental concepts, vocabulary and structure.
+
+== TODO
+
+* [ ] https://junit.org/junit5/[Junit 5]
+* [ ] https://testng.org[TestNG]
+* [ ] http://spockframework.org/[Spock]
+* [ ] https://approvaltests.com/[Approval Tests]
+* [ ] http://www.scalatest.org/[ScalaTest]
+* [ ] https://mochajs.org/[Mocha]
+* [ ] https://jestjs.io/[Jest]
+* [ ] https://rspec.info/[RSpec]
+* [ ] https://github.com/kotlintest/kotlintest[KotlinTest]
+* [ ] https://cucumber.io/[Cucumber]
+* [ ] https://www.katalon.com/[Katalon]
+* [ ] https://www.tricentis.com/[Tricentis]
+* [ ] http://jsverify.github.io/[JSVerify]
+* [ ] http://fitnesse.org/[Fitnesse]
+* [ ] https://specflow.org/[SpecFlow]
+* [ ] http://www.serenity-bdd.info/[Serenity BDD]
