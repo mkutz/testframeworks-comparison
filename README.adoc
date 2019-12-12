@@ -9,7 +9,7 @@ This is a comparission of different test frameworks of different programming lan
 
 * [ ] https://junit.org/junit5/[Junit 5]
 * [ ] https://testng.org[TestNG]
-* [ ] http://spockframework.org/[Spock]
+* [x] http://spockframework.org/[Spock]
 * [ ] https://approvaltests.com/[Approval Tests]
 * [ ] http://www.scalatest.org/[ScalaTest]
 * [ ] https://mochajs.org/[Mocha]
@@ -25,3 +25,4 @@ This is a comparission of different test frameworks of different programming lan
 * [ ] http://www.serenity-bdd.info/[Serenity BDD]
 
 include::rspec/README.adoc[leveloffset=+1]
+include::spock/README.adoc[leveloffset=+1]

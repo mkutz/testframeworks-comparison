@@ -1,0 +1,48 @@
+= Spock
+
+[quote, http://spockframework.org/spock/docs/1.3/spock_primer.html#_terminology, Spock Primer]
+Spock lets you write *specifications* that describe expected *features* (properties, aspects) exhibited by a system of interest. The system of interest could be anything between a single class and a whole application, and is also called the *system under specification* or SUS. The description of a *feature starts from a specific snapshot* of the SUS and its collaborators; this snapshot is called the *feature’s fixture*.
+
+== Grouping
+
+Specification classes.
+
+== Tests
+
+Called features.
+Names can be any string.
+
+Feature methods are structured in blocks, like `given`, `when`, `then` or `expect`.
+
+== Define Collaborators
+
+Use fields.
+
+== Define the Subject
+
+Maybe defined as field or not.
+May be marked with `@Subject` or not.
+
+== Ignoring
+
+Annotate with `@Ignore` to ignore one feature or a whole `Specification`.
+
+Annotate a feature with `@IgnoreRest` to execute only the annotated feature.
+
+== Pending Feature
+
+Annotate with `PendingFeature` is quite special.
+The feature is executed, but will be marked as ignored, it it fails.
+If it succeeds, it is marked as failed, to remind you to remove the annotation.
+
+== Date Driven Tests
+
+…
+
+== Verify All
+
+…
+
+== Mocking & Stubbing
+
+…
