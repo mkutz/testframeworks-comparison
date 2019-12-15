@@ -1,2 +1,2 @@
 #!/bin/bash
-groovy *Spec.groovy
+groovy ./*Spec.groovy

@@ -32,7 +32,7 @@ describe UserService do
 
   context "already registered" do
 
-    it "does not persist user data if the user name was registered before" do
+    it "does not persist user data if the username was registered before" do
     # tag::allow_stub_to_receive[]
     allow(repository_mock).to receive(:find_by_username).with(some_user.username) { some_user }
     # end::allow_stub_to_receive[]

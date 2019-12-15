@@ -1,2 +1,2 @@
 #!/bin/bash
-ruby *_spec.rb -f documentation
+ruby ./*_spec.rb -f documentation

@@ -3,10 +3,8 @@
 import spock.lang.*
 import java.time.LocalDate
 
+@Subject(User)
 class UserSpec extends Specification {
-  
-  @Subject
-  User subject
 
   def "has all attributes"() {
     given:
