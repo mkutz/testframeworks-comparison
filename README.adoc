@@ -1,9 +1,9 @@
-= Test Framework Coparison
+= Test Framework Comparison
 Michael Kutz <mail@michael-kutz.de>
 :toc:
 :source-highlighter: coderay
 
-This is a comparission of different test frameworks of different programming languages regarding fundamental concepts, vocabulary and structure.
+This is a comparison of different test frameworks of different programming languages regarding fundamental concepts, vocabulary and structure.
 
 == TODO
 
