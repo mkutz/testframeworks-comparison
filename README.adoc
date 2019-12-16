@@ -23,6 +23,10 @@ This is a comparison of different test frameworks of different programming langu
 * [ ] http://fitnesse.org/[Fitnesse]
 * [ ] https://specflow.org/[SpecFlow]
 * [ ] http://www.serenity-bdd.info/[Serenity BDD]
+* [ ] https://zio.dev/[ZIO test]
+* [ ] https://github.com/lihaoyi/utest[µTest]
+* [ ] https://www.scalacheck.org/[ScalaCheck]
+* [ ] QuickCheck, e.g. https://github.com/pholser/junit-quickcheck[JUnit QuickCheck]
 
 include::rspec/README.adoc[leveloffset=+1]
 include::spock/README.adoc[leveloffset=+1]
